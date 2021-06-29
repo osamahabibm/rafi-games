@@ -1,0 +1,94 @@
+@media(max-width:991px){
+    .navbar-brand{
+        display: block;
+    }
+
+    .navbar-nav{
+    margin-bottom: 20px;
+}     
+.navbar-nav .nav-item{
+border-bottom: 1px solid rgb(141, 136, 136);
+border-width: 100%;
+padding: 5px;
+}
+.list{
+  display: flex !important;
+  flex-direction: row !important;
+
+}
+}
+
+@media(min-width:992px){
+    .navbar-brand{
+        display: none;
+    }
+}
+@media(min-width:767px) and (max-width:1199px){
+.card-body{
+  text-align: center;
+}
+
+.gg{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  margin-top: 30px;
+}
+
+.flex-auto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+}
+@media(max-width:768px){
+.flex-search{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+form{
+  width: 100% !important;
+}
+
+ .flex-icons{
+       margin-top: 20px;
+       display: flex;
+       justify-content: flex-start;
+       align-self: flex-start;
+     }
+.gg{
+  margin-top: 30px;
+}
+  .flex-auto{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.sale{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  margin-left: 28px;
+}
+
+}
+
+@media(max-width:1199px){
+
+   .flex-imges{
+     display: none;
+   }
+
+}
+
+@media(min-width:768px) and (max-width:1296px) {
+.swiper-container{
+    height: 100%;
+}
+}
+
