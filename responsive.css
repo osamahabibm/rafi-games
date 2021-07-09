@@ -22,6 +22,9 @@ padding: 5px;
     .navbar-brand{
         display: none;
     }
+    .icons a span{
+  margin-right: 10px;
+}
 }
 @media(min-width:767px) and (max-width:1199px){
 .card-body{
@@ -76,6 +79,14 @@ form{
   margin-left: 28px;
 }
 
+.list-footer-4 i,
+.list-footer-5 i{
+  display: none;
+}
+.icons a span{
+  margin-right: 10px;
+}
+
 }
 
 @media(max-width:1199px){
@@ -86,9 +97,12 @@ form{
 
 }
 
+
+
 @media(min-width:768px) and (max-width:1296px) {
 .swiper-container{
     height: 100%;
 }
+
 }
 

@@ -26,7 +26,7 @@
         <div class="container">
 
             <a href="http://" class="navbar-brand">
-                Criminal Gaming</a>
+                CRIMINAL Gaming</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -89,8 +89,8 @@
                 <button type="button" class="btn btn-primary">Search</button>
 
                 <div class="icons">
-                    <a href=""> <i class="fab fa-opencart"></i> <span>Cart</span> </a>
-                    <a href=""> <i class="fas fa-user"></i> <span>Join</span> </a>
+                    <a href=""> <span>Cart</span> <i class="fas fa-cart-plus"></i> <span class="n"></span> </a>
+                    <a href=""> <span>Join</span> <i class="fas fa-user-friends"></i> <span class="n"></span> </a>
                 </div>
             </div>
         </div>
@@ -212,8 +212,15 @@
             </div>
             <div class="sale">
                 <div class="sale-box">
-                    <div class="sale-img">
-                        <img src="image/sale/1.jpg">
+                    <div class="cont">
+                        <div class="sale-img">
+                            <img src="image/sale/1.jpg">
+                        </div>
+                        <div class="overlay overlayleft">
+                            <div class="text-2">
+                                <a href="#">More Details</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="text">
                         <h1>assassin's creed</h1>
@@ -225,8 +232,15 @@
                 </div>
 
                 <div class="sale-box">
-                    <div class="sale-img">
-                        <img src="image/sale/2.jpg">
+                    <div class="cont">
+                        <div class="sale-img">
+                            <img src="image/sale/2.jpg">
+                        </div>
+                        <div class="overlay overlayleft">
+                            <div class="text-2">
+                                <a href="#">More Details</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="text">
                         <h1>FiFA 2020 pes</h1>
@@ -324,9 +338,10 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-12">
                     <div class="img-footer">
                         <i class="fab fa-playstation"></i>
+                        <h3>CRIMINAL <span> Gaming</span></h3>
                     </div>
                 </div>
                 <div class="col">
@@ -364,7 +379,7 @@
                 </div>
                 <div class="col">
                     <ul class="list-footer-4">
-                        <li><a href=""><i class="fas fa-phone-alt"></i> +970 592 122 789</a></li>
+                        <li><a href=""><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
                         <li><a href=""><i class="fab fa-snapchat-ghost"></i> SnapChat</a></li>
                         <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
 
@@ -372,16 +387,16 @@
                 </div>
                 <div class="col">
                     <ul class="list-footer-5">
-                        <li><a href=""><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
                         <li><a href=""><i class="fab fa-twitter"></i> Twitter</a></li>
                         <li><a href=""><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href=""><i class="fas fa-phone-alt"></i> +970 592 122 789</a></li>
                     </ul>
                 </div>
             </div>
             <hr>
             <div class="row">
                 <div class="col-8">
-                    <h3>InetWebSystam</h3>
+                    <h3>OSAMA I K HABEEB</h3>
                 </div>
                 <div class="col-4">
                     <p>&copy; All rights reserved to Criminal Games 2020</p>
@@ -425,8 +440,11 @@
 
             },
             breakpoints: {
-                768: {
+                360: {
                     slidesPerView: 2,
+                },
+                768: {
+                    slidesPerView: 3,
                 },
 
                 1024: {

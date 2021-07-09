@@ -50,12 +50,14 @@ form .form-select:focus{
 }
 input[type="search"]{
   border: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 form{
   width: 60%;
 }
 .d-flex{
-  border: 1px solid rgb(124, 120, 120);
+  border: 1px solid rgb(202, 185, 185);
   width: 100%;
   border-radius: 4px;
 }
@@ -85,10 +87,14 @@ font-size: 18px;
 letter-spacing: 1.8;
 margin-right: 15px;
 }
-
 .icons a i{
 margin-right: 10px;
+color: #0a4e82;
 }
+.icons a span{
+  color: #737272;
+}
+
 .flex-imges i{
 font-size: 100px;
 color: #0a4e82;
@@ -306,6 +312,60 @@ justify-content: space-between;
  margin-top: 100px;
  padding: 0;
 }
+.sale-img{
+  width: 284px;
+  height: 331px;
+  display: block;
+}
+.overlay{
+  position: absolute;
+  transition: all .3s ease;
+  opacity: 0;
+  background: #eee;
+}
+.overlayleft{
+height: 0%;
+width: 100%;
+bottom: 0;
+right: 0;
+background: #0a4e82;
+}
+
+.cont:hover .overlay{
+ opacity: 1;
+}
+.cont:hover .overlayleft{
+  height: 100%;
+}
+.text-2{
+  color: black;
+  background: white;
+  z-index: 2;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.text-2 a{
+  border: 1px solid white;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+  background: white;
+}
+.text-2 a:hover{
+background: rgb(211, 52, 52);
+color: white;
+}
+.cont{
+   position: relative;
+  display: inline-block;
+}
+.sale-box{
+  position: relative;
+  display: inline-block;
+}
 .sale{
 position: relative;
 max-width: 100%;
@@ -316,11 +376,9 @@ grid-auto-flow: dense;
 gap: 20px;
 place-items: center;
 margin-top: 50px;
+
 }
-.sale .sale-img{
-  width: 284px;
-  height: 331px;
-}
+
 .sale-img,
 .text{
   margin-top: 15px;
@@ -332,9 +390,11 @@ margin-top: 50px;
   background: #0a4e82;
 }
 .sale .sale-img img{
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
+ max-width: 100%;
+ height: 100%;
+object-fit: cover;
+display: block;
+
 }
 
 .sale-box .text h1{
@@ -357,9 +417,17 @@ margin-top: 50px;
   background:#0a4e82;
   margin-top: 100px;
 }
+.img-footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+   margin-bottom: 50px;
+}
 .img-footer i{
 font-size: 128px;
 color: #d4d3d3;
+margin-right: 50px;
 }
 .footer .col ul li{
   list-style: none;
