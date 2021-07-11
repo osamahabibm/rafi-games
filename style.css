@@ -1,16 +1,19 @@
-html,
 body {
     position: relative;
     height: 100%;
     background: #fff;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 * {
 margin: 0;
 padding: 0;
- -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 
 
@@ -456,3 +459,4 @@ margin-right: 50px;
 }
 
 /* End Footer */
+
