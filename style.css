@@ -17,6 +17,11 @@ padding: 0;
 
 
 /* Start NavBar-header */
+nav{
+  position: sticky !important;
+  top: 0;
+  z-index: 11;
+}
 .bg-dark{
 background: #0a4e82 !important;
 }
